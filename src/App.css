@@ -1,0 +1,890 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    display: flex;
+    justify-content: center;
+  }
+  .main{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .main figure img{
+    display: flex;
+    padding-left: 20px;
+  }
+  .nav-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor:pointer;
+    
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 9px;
+  }
+  button {
+    border-radius: 4px;
+    width:120px;
+    height: 56px;
+    background-color: blue;
+    color: aliceblue;
+    border-style: none;
+  }
+  .sec1{
+    display: flex;
+    
+  }
+  .back {
+    padding-top: 40px ;
+    width: 100vw;
+    height: 96vh;
+    background-color: lightsteelblue;
+   
+  }
+  .h1p{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-left: 170px;
+    
+  }
+  .sp{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-left: 100px;
+    margin-top: 29px;
+    color: black;
+  }
+  .sect1{
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+    padding-top: 70px;
+    
+  }
+  .navi,a{
+    font-size: 17px;
+  text-decoration: none;
+  }
+  .sect2 figure{
+    display: flex;
+    gap:100px;
+  }
+  .sect2 figure span{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .sect2 img {
+    border-radius: 10px;
+    border-style:solid;
+    border-width: 20px;
+    border-color: aliceblue;
+  }
+  .sect2 img:hover {
+  transition: 0.5s;
+  transform: translate(-50%,-50%);
+  }
+  .sect3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:90px;
+  width:99vw;
+  height: 20vh;
+  background-color: rgb(132, 133, 131);
+  }
+  .p1{
+    font-size: 53px;
+  }
+  .p2{
+    font-size: 40px;
+  }
+  .sect4 h2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding-top: 80px;
+  }
+  .sect4 nav {
+    display: flex;
+    justify-content: center;
+    color: rgba(151, 151, 151, 0.988);
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  .sect5 {
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+  }
+  .sect5 img {
+    width:416px;
+    height:433px;
+    gap: 10px;
+  }
+  .sect5 section figure {
+    display: flex;
+  }
+  .p6{
+    font-size: 28px;
+  }
+  .sp6{
+    font-size: 14px;
+    color: cornflowerblue;
+  }
+  .sect6 {
+    padding-top: 90px;
+    width:90vw;
+    
+  }
+  .sect6 aside figure img {
+    display:flex;
+    width: 700px;
+    height:500px;
+  }
+  .side1{
+    float: right;
+  }
+  .side2{
+    display: flex;
+    justify-content: center;
+  }
+  .span1{
+    color: blue;
+    font-size: 12px;
+  }
+  .side2 h2 {
+    font-size: 32px;
+  }
+  .side2 h5{
+    font-size: 17px;
+  }
+  .side2 h6 {
+    font-size: 17px;
+  }
+  .span2 {
+    font-size: 13px;
+    color: lightslategray;
+  }
+  .span0{
+    padding-top: 90px ;
+  }
+  .gif{
+    display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  width: 100vw;
+  }
+  .gif h3{
+    display: flex;
+  font-size: 40px;
+  }
+  .gif0 figure  {
+    display: flex;
+    justify-content: center;
+    width:1160px;
+    height: 623px;
+    margin-left: 170px;
+  }
+  .sect7{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+  }
+  .sect7 span {
+    display: flex;
+    justify-content: center;
+    color: blue;
+  }
+  .ppp{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 30px;
+  }
+  .chven{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 30px;
+  }
+  .chven figure {display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  .chven figure img {
+    width: 220px;
+    height: 250px;
+  }
+  .bu1 {
+    font-size: 30px;
+  }
+  .bu2{
+    font-size: 15px;
+    color: red;
+  }
+  
+  .core{display: flex;
+    justify-content: center;
+    font-size: 12px;
+    padding-top: 90px;
+    color: blue;
+    
+  }
+  .span00 {display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 35px;
+  }
+  .icons2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 40px;
+    height: 190px;
+  }
+  .icons2 img {
+    border-radius:8px;
+    border-color: rgb(227, 227, 231);
+    border-style:solid;
+    width:75px ;
+    height:75px ;
+  }
+  
+  
+  .icons2 figure{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    gap: 100px;}
+    
+  .icons2 span{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .hover2{
+    width:100%;
+  }
+  .hover2 img {
+    display: flex;
+    padding-top: 90px;
+    width:1500px;
+    height: 900px;
+  }
+  .last{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  .core1{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+  color:blue;
+  
+  }
+  .span01{
+    display: flex;
+    justify-content: center;
+    padding-top:  20px;
+    font-size: 40px;
+  }
+  .nazu{
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  height: 30%;
+  border-radius: 4px;
+  border-style: none;
+  border-color: rgb(212, 209, 214);
+  }
+  .nazu2{
+  padding-top: 70px;
+  font-size: 14px;
+  color: rgb(10, 10, 10);
+  
+  }
+  .nazu1 {
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+  .nazu3 {display: flex;
+    background-color: rgb(180, 196, 199);
+  }
+  .naz{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 50px;
+  }
+  .nspan{
+    display: flex;
+    align-items: center;
+    color: lightslategrey;
+  }
+  footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    background-color: blue;
+    width: 100vw;
+    height: 50vh;
+  }
+  .foot {
+    font-size: 40px;
+    color: white;
+    padding-top: 50px;
+    
+  }
+  .fotsp{
+    display: flex;
+    justify-content: center;
+  font-size: 17px;
+  transition: all 0.4 linear;
+  }
+  .foot button {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    width: 260px;
+    height: 61px;
+    color:blue;
+    margin-left: 100px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    padding-top: 25px;
+    font-weight: bold;
+    
+  }
+  .cop{
+    display: flex;
+    justify-content: start;
+    background-color: blue;
+    justify-content: space-between;
+  }
+  .cop1{
+    color: white;
+    gap:19px;
+    padding-right: 80px;
+  }
+  button:hover{
+    color:black;
+  }
+  
+  
+  .backph{
+    width:100%;
+    height: 600px
+  }
+  
+  @media screen and (max-width:556px) 
+  {
+    
+    header {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;align-items: center;
+        justify-content: center;
+    }
+    .main{
+    width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .nav-btn {
+        display: flex;
+        flex-direction: column;
+        cursor:pointer;
+        padding-bottom: 5px;
+        
+    }
+    ul {
+        list-style: none;
+        display: flex;
+        gap: 9px;
+    }
+    button {
+        border-radius: 4px;
+        width:120px;
+        height: 56px;
+        background-color: blue;
+        color: aliceblue;
+        border-style: none;
+    }
+    .sec1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+  
+    .back {width:556px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-position: bottom;
+    background-size: contain;
+    box-sizing: border-box;
+    padding-bottom: 200px;
+    }
+   
+    .h1p{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+  box-sizing: border-box;
+  padding-bottom: 22px;
+  font-size: 10px;
+  margin-right: 100px;
+        
+    }
+    .sp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 90px;
+    
+    }
+    .sect1{
+        width: 556px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sect2 figure{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;margin-top: 500px;
+        box-sizing: border-box;
+        
+    }
+    .sect2 figure span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        
+    }
+    .sect2 img {
+        display: flex;
+        flex-direction: column;
+        width:50px ;
+        height: 50px;
+    }
+    .sect2 img:hover {
+    transition: 0.5s;
+    transform: translate(-50%,-50%);
+    }
+    .sect3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:90px;
+    width:99vw;
+    height: 20vh;
+    background-color: rgb(132, 133, 131);
+    margin-top: 600px;
+    }
+    .p1{
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .p2{
+        font-size: 20px;
+    }
+    .sect4 h2{
+        display: flex;
+        width: 556px;
+        justify-content: center;
+        font-size: 20px;
+        padding-top: 80px;
+    }
+    .sect4 nav{
+        display: flex;
+        width: 556px;
+    }
+  
+    .sect4 nav ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .sect5 {
+        width:550px;
+        display: flex;
+        flex-direction: column;
+    }
+    .sect5 section {
+        width: 550px;
+    }
+  
+        
+    
+  
+    .sect5 section figure {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    align-items: center; width: 550px;
+    }
+    .p6{
+        font-size: 28px;
+    }
+    .sp6{
+        font-size: 14px;
+        color: cornflowerblue;
+    }
+    .sect6 {
+        display: flex;
+        flex-direction: column;
+        padding-top: 90px;
+        width:90vw;
+        
+    }
+    .sect6 aside figure img {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 550px;
+        height: 370px;
+        
+    }
+    .poc{display: flex;
+        width: 556px;
+    }
+    .sect6 aside{
+        width: 100%;
+    }
+    .sect6 aside  img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        padding-top: 90px;
+        width:600px;
+        height: 300px;
+    }
+    .side1{
+        float: right;
+    }
+    .side2{
+        display: flex;
+        justify-content: center;
+        font-size: 32px;
+        margin-left: 100px;
+    }
+    .span1{
+        color: blue;
+        font-size: 12px;
+    }
+    .side2 h2 {
+        font-size: 32px;
+    }
+    .side2 h5{
+        font-size: 17px;
+    }
+    .side2 h6 {
+        font-size: 17px;
+    }
+    .span2 {
+        font-size: 13px;
+        color: lightslategray;
+    }
+    .span0{
+        padding-top: 90px ;
+        margin-right: 20px;
+    }
+    .gif{
+        display: flex;
+        flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    width: 100%;
+    height: 60px;
+    }
+    .gif h3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    font-size: 20px;
+    margin-left: 10px;
+    }
+    .gif0{
+        width:50%;
+        height: 300px;
+        display: flex;
+    
+    }
+    .gif0 figure  {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:50%;
+        height:223px;
+        margin-top:80px;
+        
+    }
+    .gif0 figure img {
+        display: flex;
+        flex-direction: column;
+        max-width:500px;
+        max-height: 300px;
+        margin-left:93px;
+        margin-bottom: 80px;
+    
+    
+    }
+    .sect7{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    padding-left: 70px;
+        height: 20px;
+    }
+    .sect7 span {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: blue;
+        margin-left: 150px;
+        
+    }
+    .ppp{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        font-size: 30px;
+        align-items: center;
+    }
+    .chven{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 30px;
+        
+    }
+    .chven figure {display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    
+        
+    }
+    .chven figure img {
+        width: 220px;
+        height: 250px;
+    }
+    .bu1 {
+        font-size: 30px;
+    }
+    .bu2{
+        font-size: 15px;
+        color: red;
+    }
+    
+    .core{display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        padding-top: 90px;
+        color: blue;
+        
+        
+    }
+    .span00 {display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15px;
+        font-size: 35px;
+    }
+    .icons2{
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        padding-top: 40px;
+        
+        
+    }
+    .icons2 img {
+        border-radius:8px;
+        border-color: rgb(227, 227, 231);
+        border-style:solid;
+        width:75px ;
+        height:75px ;
+    }
+    
+    
+    .icons2 figure{
+        display: flex;
+        justify-content: center;
+        margin-top: 330px;
+        gap: 100px;
+        flex-wrap: wrap;
+        font-size: 20px;
+    }
+        
+    .icons2 span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .hover2{display: flex;
+        margin-top: 300px;
+        width:400px;
+        height: 300px;
+    }
+    .hover2 img {
+  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        padding-top: 90px;
+        width:550px;
+        height: 300px;
+        
+    }
+    .last{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .core1{
+        display: flex;
+        justify-content: center;
+        padding-top: 100px;
+    color:blue;
+    
+    }
+    .span01{
+        display: flex;
+        justify-content: center;
+        padding-top:  20px;
+        font-size: 40px;
+    }
+    .nazu{
+        display: flex;
+        flex-direction: column;
+    align-items: center;border-style: none;
+    }
+  
+    
+    
+    }
+    .nazu2{
+    padding-top: 70px;
+    font-size: 14px;
+    color: rgb(10, 10, 10);
+    
+    
+    }
+    .nazu1 {
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+    .nazu3 {display: flex;
+        background-color: rgb(180, 196, 199);
+    }
+    .naz{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+        padding-top: 50px;
+    }
+    .nspan{
+        display: flex;
+        align-items: center;
+        color: lightslategrey;
+    }
+    footer{
+        display: flex;
+        width: 100%;
+        height: 300px;
+        justify-content: center;
+        margin-top: 80px;
+        background-color: blue;
+    
+    }
+    .foot {
+        font-size: 30px;
+        color: white;
+        padding-top: 50px;
+        
+    }
+    .fotsp{
+        display: flex;
+        justify-content: center;
+    font-size: 17px;
+    transition: all 0.4 linear;
+    }
+    .foot button {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(255, 255, 255);
+        border-radius: 7px;
+        width: 260px;
+        height: 61px;
+        color:blue;
+        margin-left: 50px;
+        margin-top: 30px;
+        box-sizing: border-box;
+        padding-top: 25px;
+        font-weight: bold;
+        
+    }
+    .poc {display: flex;
+        flex-direction: column;
+        
+    }
+    .cop{
+        display: flex;
+        
+        justify-content: start;
+        background-color: blue;
+        justify-content: space-between;
+    }
+    .cop1{
+        color: white;
+        gap:19px;
+        padding-right: 80px;
+    }
+    button:hover{
+        color:black;
+  
+    }
